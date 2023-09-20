@@ -1,5 +1,6 @@
 import javax.swing.*;
 
+
 public class ArithmeticMethod {
     public static void main(String[] args) {
         JTextField enterInput1 = new JTextField();
@@ -7,8 +8,6 @@ public class ArithmeticMethod {
         JTextField enterInput3 = new JTextField();
 
         Object[] message = {"Enter Num 1:", enterInput1, "Enter Num 2:", enterInput2, "Enter Num 3:", enterInput3};
-
-
         int option = JOptionPane.showConfirmDialog(null, message, "Method", JOptionPane.OK_CANCEL_OPTION);
         if (option == JOptionPane.OK_OPTION) {
 
@@ -20,13 +19,12 @@ public class ArithmeticMethod {
             String sub = String.valueOf(subtractNumber(num1,num2,num3));
             String mult = String.valueOf(multiplyNumber(num1,num2,num3));
             String div = String.valueOf(divideNumber(num1,num2,num3));
-
+             // github
             JOptionPane.showMessageDialog(null, add + "\n" + sub + "\n"+ mult + "\n" + div);
         }
     }
     public static float addNumber(int num1, int num2, float num3){
         return num1 + num2 + num3;
-
     }
     public static float subtractNumber(int num1, int num2, float num3){
         return num1 - num2 - num3;
