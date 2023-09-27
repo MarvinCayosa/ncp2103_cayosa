@@ -14,6 +14,5 @@ public class SumOfDigits {
           int count3 = num;
           return  count1 + count2 + count3;
       }
-
     }
 

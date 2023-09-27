@@ -28,15 +28,11 @@ public class ArithmeticMethod {
     }
     public static float subtractNumber(int num1, int num2, float num3){
         return num1 - num2 - num3;
-
     }
     public static float multiplyNumber(int num1, int num2, float num3){
         return num1 * num2 * num3;
-
     }
     public static float divideNumber(int num1, int num2, float num3){
         return (num1 / num2)/ num3;
-
     }
-
 }
